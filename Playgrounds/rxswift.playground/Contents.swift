@@ -3,7 +3,6 @@
 import UIKit
 import RxSwift
 import PlaygroundSupport
-import PlaygroundWithOSS
 
 struct Example {
     init(of name: String, action: @escaping () -> Void) {
@@ -117,4 +116,3 @@ Example(of: "Observable.just(1).asMaybe()") {
         })
         .disposed(by: disposeBag)
 }
-
